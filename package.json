@@ -1,0 +1,13 @@
+{
+  "name": "ast-interpreter",
+  "version": "1.0.0",
+  "description": "AST interpreter",
+  "main": "main.ts",
+  "scripts": {
+    "exec": "npx vite-node main.ts",
+    "exec:example1": "npx vite-node main.ts ./examples/code.lang"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
+}
